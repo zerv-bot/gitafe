@@ -1,0 +1,10 @@
+# GITAFE - Time is money.
+# Author : Harvey Wu
+
+# Configuration File
+
+version: 0.2
+
+git_platform: github.com
+
+branch: main
