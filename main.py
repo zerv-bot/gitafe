@@ -36,7 +36,7 @@ def main():
     elif sys.argv[1] == '-u' or sys.argv[1] == 'up':
         try:
             os.system('git add '+sys.argv[2])
-            os.system('git commit -m '+sys.argv[3]+' -m '+sys.argv[4])
+            os.system('git commit -m "'+sys.argv[3]+'" -m "'+sys.argv[4]+'"')
             os.system('git push origin '+GIT_BRANCH)
         except:
             os.system('git push origin '+GIT_BRANCH)
